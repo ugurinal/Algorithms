@@ -1,0 +1,9 @@
+- name: Setup Java Action
+  uses: actions/setup-java@v1.0.0
+  with:
+    # The JDK version to make available on the path. Takes a whole or semver Jdk version, or 1.x syntax (e.g. 1.8 => Jdk 8.x)
+    version: 
+    # The architecture (x86, x64) of the JDK.
+    architecture: # default is x64
+    # Path to where the compressed JDK is located. The path could be in your source repository or a local path on the agent.
+    jdkFile: # optional
