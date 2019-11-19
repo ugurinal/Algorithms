@@ -9,7 +9,6 @@ public class Queue implements NodeList {
     private ListItem front = null;
     private ListItem rear = null;
     private int size;
-    private int counter = 0;
 
     public Queue(ListItem front, ListItem rear) {
         this.front = front;

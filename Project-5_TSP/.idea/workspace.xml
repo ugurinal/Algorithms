@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43652264-3c84-45bf-8c88-e159373d6879" name="Default Changelist" comment="" />
+    <list default="true" id="038d841c-ef21-4940-8f37-a057ee1e4943" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1TnM8NQ4i4uUVju2aFklBpMW16s" />
+  <component name="ProjectId" id="1Tpwehta5Lh2Z9zwnWZLxPK9CIY" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
@@ -37,31 +29,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Project-3_BubbleSort" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43652264-3c84-45bf-8c88-e159373d6879" name="Default Changelist" comment="" />
-      <created>1574091245742</created>
+      <changelist id="038d841c-ef21-4940-8f37-a057ee1e4943" name="Default Changelist" comment="" />
+      <created>1574170442114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574091245742</updated>
-      <workItem from="1574091249992" duration="6066000" />
-      <workItem from="1574114460923" duration="2375000" />
-      <workItem from="1574117878402" duration="54000" />
-      <workItem from="1574166495048" duration="2512000" />
+      <updated>1574170442114</updated>
+      <workItem from="1574170448114" duration="47000" />
     </task>
     <servers />
   </component>
