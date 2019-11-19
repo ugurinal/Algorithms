@@ -12,7 +12,7 @@ public class Main {
 
         char[] subText = new char[b - a];
 
-        for (int i = 0; i < b; i++) {
+        for (int i = 0; i < b - a + 2; i++) {
             subText[i] = text[a];
             a++;
         }
