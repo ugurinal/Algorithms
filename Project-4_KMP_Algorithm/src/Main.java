@@ -35,6 +35,7 @@ public class Main {
     private static int[] resizeArray(int[] oldArray, int newSize) {
         int oldSize = oldArray.length;
         int[] newArray = new int[newSize];
+
         for (int i = 0; i < oldSize; i++) {
             newArray[i] = oldArray[i];
         }
@@ -53,14 +54,14 @@ public class Main {
         int n = bText.length; // size of text B
 
         char[] temp;
-        int[] indexes = new int[0];
-        int iSize = 0;
+
+        int iSize = 0;  // size of indexes
+        int[] indexes = new int[iSize];
 
         for (int i = 0; i <= m - n; i++) {
             temp = subString(aText, i, i + n);
             if (compare(bText, temp)) {
-                indexes = resizeArray(indexes, i + 1);
-                //indexes = new int[iSize + 1];
+                indexes = resizeArray(indexes, iSize + 1);
                 indexes[iSize] = i;
                 iSize++;
             }
