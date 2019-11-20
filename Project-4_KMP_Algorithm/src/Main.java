@@ -12,7 +12,7 @@ public class Main {
 
         char[] subText = new char[b - a];
 
-        for (int i = 0; i < b - a + 2; i++) {
+        for (int i = 0; i < b - a + 3; i++) {
             subText[i] = text[a];
             a++;
         }
@@ -32,6 +32,15 @@ public class Main {
         return true;
     }
 
+    private static int[] resizeArray(int[] oldArray, int newSize) {
+        int oldSize = oldArray.length;
+        int[] newArray = new int[newSize];
+        for (int i = 0; i < oldSize; i++) {
+            newArray[i] = oldArray[i];
+        }
+        return newArray;
+    }
+
 
     public static void main(String[] args) {
 
@@ -47,17 +56,18 @@ public class Main {
         int[] indexes = new int[0];
         int iSize = 0;
 
-        for (int i = 0; i < m - n; i++) {
+        for (int i = 0; i <= m - n; i++) {
             temp = subString(aText, i, i + n);
             if (compare(bText, temp)) {
-                indexes = new int[iSize + 1];
+                indexes = resizeArray(indexes, i + 1);
+                //indexes = new int[iSize + 1];
                 indexes[iSize] = i;
                 iSize++;
             }
         }
 
-        for(int i = 0; i < indexes.length;i++){
-            System.out.println(indexes[i] + " ");
+        for (int i = 0; i < indexes.length; i++) {
+            System.out.println((i + 1) + ".index is " + indexes[i] + " ");
         }
 
     }
