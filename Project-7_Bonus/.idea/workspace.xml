@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ccd2081-414c-4757-adeb-6fb21963607a" name="Default Changelist" comment="" />
+    <list default="true" id="6546bec3-d226-4bfc-8294-b2582e932b1d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +15,23 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1TsFlqLU1tc9VnvMuZaq8BTbnYv" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1U26clQFI3EWTNXCCBO8aVafbJS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uguri\Documents\GitHub\Algorithms\Project-7_Bonus\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +48,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Project-4_KMP_Algorithm" />
+      <module name="Project-7_Bonus" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -52,15 +61,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ccd2081-414c-4757-adeb-6fb21963607a" name="Default Changelist" comment="" />
-      <created>1574170494039</created>
+      <changelist id="6546bec3-d226-4bfc-8294-b2582e932b1d" name="Default Changelist" comment="" />
+      <created>1574542424988</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574170494039</updated>
-      <workItem from="1574170496811" duration="4052000" />
-      <workItem from="1574241057023" duration="1091000" />
-      <workItem from="1574245845026" duration="228000" />
+      <updated>1574542424988</updated>
+      <workItem from="1574542429899" duration="9889000" />
+      <workItem from="1574599784164" duration="6493000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

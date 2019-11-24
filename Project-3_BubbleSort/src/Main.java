@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * @author UGURINAL
  * on 11/18/2019
@@ -8,31 +10,51 @@
 public class Main {
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
         Queue myQueue = new Queue(null, null);
 
-        Node test = new Node(0);
-        Node test1 = new Node(1234);
-        Node test2 = new Node(-164);
-        Node test3 = new Node(12);
-        Node test4 = new Node(789);
-        Node test5 = new Node(55);
-        Node test6 = new Node(64);
-        Node test7 = new Node(994);
-        Node test8 = new Node(88);
-        Node test9 = new Node(3146);
+        int element;
+        int choice;
 
-        myQueue.enqueue(test);
-        myQueue.enqueue(test1);
-        myQueue.enqueue(test2);
-        myQueue.enqueue(test3);
-        myQueue.enqueue(test4);
-        myQueue.enqueue(test5);
-        myQueue.enqueue(test6);
-        myQueue.enqueue(test7);
-        myQueue.enqueue(test8);
-        myQueue.enqueue(test9);
+        while (true) {
+            System.out.print("1 - Add element to the queue" +
+                    "\n2 - Iterative bubble sort" +
+                    "\n3 - Recursive bubble sort" +
+                    "\n4 - Display" +
+                    "\n5 - Exit" +
+                    "\nEnter your choice : ");
+            choice = scanner.nextInt();
 
-        myQueue.recTest(myQueue.getFront());
-        myQueue.traverse();
+            switch (choice) {
+                case 1:
+                    System.out.println("Enter number to add the Queue");
+                    element = scanner.nextInt();
+                    Node myNode = new Node(element);
+                    if (myQueue.enqueue(myNode)) {
+                        System.out.println(element + " was added to the Queue succesfully\n");
+                    } else {
+                        System.out.println("Error");
+                    }
+                    break;
+                case 2:
+                    myQueue.iteBubbleSort();
+                    System.out.println("Queue succuessfully sorted");
+                    break;
+                case 3:
+                    myQueue.recBubbleSort(myQueue.getFront());
+                    System.out.println("Queue succuessfully sorted");
+                    break;
+                case 4:
+                    myQueue.traverse();
+                    break;
+                case 5:
+                    System.exit(-1);
+                    break;
+                default:
+                    System.out.println("Invalid value");
+                    break;
+
+            }
+        }
     }
 }

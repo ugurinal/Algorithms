@@ -16,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TnM8NQ4i4uUVju2aFklBpMW16s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
@@ -62,7 +66,19 @@
       <workItem from="1574114460923" duration="2375000" />
       <workItem from="1574117878402" duration="54000" />
       <workItem from="1574166495048" duration="2512000" />
+      <workItem from="1574617828624" duration="803000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

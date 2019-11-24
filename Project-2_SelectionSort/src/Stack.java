@@ -119,14 +119,19 @@ public class Stack implements NodeList {
     public void traverse() {
 
         if (this.stackPointer == null) {
+            System.out.println("Stack is empty.");
             return;
         }
 
         ListItem temp = this.stackPointer;
         while (temp != null) {
-            System.out.println(temp.getValue());
+            System.out.print(temp.getValue());
+            if(temp.next() != null){
+                System.out.print(" -> ");
+            }
             temp = temp.next();
         }
+        System.out.println();
 
     }
 }

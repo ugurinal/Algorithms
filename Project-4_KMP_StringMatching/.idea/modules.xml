@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Project-5_TSP.iml" filepath="$PROJECT_DIR$/Project-5_TSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project-4_KMP_StringMatching.iml" filepath="$PROJECT_DIR$/Project-4_KMP_StringMatching.iml" />
     </modules>
   </component>
 </project>

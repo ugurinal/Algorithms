@@ -146,9 +146,10 @@ public class MyLinkedList implements NodeList {
         while (temp != null) {
             if (temp.getValue() == searchKey) {
                 temp = this.root;
+                System.out.println("The positive divisors of numbers in the list:");
                 while (temp != null) {
                     int value = temp.getValue();
-                    System.out.print("The divisors of " + value + " are -->  ");
+                    System.out.print("The positive divisors of " + value + " are -->   ");
                     for (int i = 1; i < value; i++) {
                         if (value % i == 0) {
                             System.out.print(i + "  ");
@@ -177,9 +178,10 @@ public class MyLinkedList implements NodeList {
 
         if (root.getValue() == searchKey) {
             ListItem temp = this.root;
+            System.out.println("The positive divisors of numbers in the list:");
             while (temp != null) {
                 int value = temp.getValue();
-                System.out.print("The divisors of " + value + " are  --->");
+                System.out.print("The divisors of " + value + " are  --->   ");
                 for (int i = 1; i <= value; i++) {
                     if (value % i == 0) {
                         System.out.print(i + "  ");

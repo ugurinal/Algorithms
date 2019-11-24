@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20334ef6-fee8-4754-9c99-99206b022abd" name="Default Changelist" comment="" />
+    <list default="true" id="2a3b3e0c-f83e-4d8a-96f7-af3cce59d979" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +11,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -19,15 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Tk7nMNxXvgZvN6VK0nQxXJvMH5" />
+  <component name="ProjectId" id="1TvQgGDmq5cTYYTHjJsbjVdZ1BU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,7 +43,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Project-2_SelectionSort" />
+      <module name="Project-4_KMP_StringMatching" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -57,14 +56,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20334ef6-fee8-4754-9c99-99206b022abd" name="Default Changelist" comment="" />
-      <created>1573992405557</created>
+      <changelist id="2a3b3e0c-f83e-4d8a-96f7-af3cce59d979" name="Default Changelist" comment="" />
+      <created>1574338198905</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573992405557</updated>
-      <workItem from="1573992409572" duration="7092000" />
-      <workItem from="1574607203190" duration="759000" />
-      <workItem from="1574618762229" duration="426000" />
+      <updated>1574338198905</updated>
+      <workItem from="1574338204683" duration="7650000" />
+      <workItem from="1574619189250" duration="2759000" />
+      <workItem from="1574621991806" duration="50000" />
     </task>
     <servers />
   </component>
@@ -80,5 +79,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -119,44 +119,25 @@ public class Queue implements NodeList {
 
     }
 
-    public ListItem recTest(ListItem front) {
-
-        if (front == null) {
-            return null;
-        }
-
-        if(front.next() != null && front.getValue() > front.next().getValue()){
-            int x = front.getValue();
-            front.setValue(front.next().getValue());
-            front.next().setValue(x);
-        }
-
-        recTest(front.next());
-
-        if(front.next() != null && front.getValue() > front.next().getValue()) {
-            int x = front.getValue();
-            front.setValue(front.next().getValue());
-            front.next().setValue(x);
-        }
-
-        recTest(front.next());
-        return null;
-    }
-
     @Override
     public void traverse() {
 
-        if (front == null) {
+        if (this.front == null) {
             System.out.println("Queue is empty.");
-        } else {
-            ListItem temp = front;
-            while (temp != null) {
-                System.out.println(temp.getValue());
-                temp = temp.next();
-            }
+            return;
         }
+
+        ListItem temp = this.front;
+        while (temp != null) {
+            System.out.print(temp.getValue());
+            if (temp.next() != null) {
+                System.out.print(" -> ");
+            }
+            temp = temp.next();
+        }
+        System.out.println();
 
     }
 
-
 }
+
